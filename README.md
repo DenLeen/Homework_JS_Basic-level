@@ -1,3 +1,3 @@
-#JS basic level
+# JS basic level
 
 Javascript lessons project.
