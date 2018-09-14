@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task4</title>
+</head>
+<body>
+    <script>
+        var arr = [];
+        var value = 0;
+        while (true) {
+            var i = prompt("Введите любое число", 0);
+            if (i === null || isNaN(i) || i === "") break;
+            arr.push(+i);
+        }
+         for (i=0; i<arr.length; i++) {
+          value += arr[i];
+         }
+         alert(value);
+    </script>
+</body>
+</html>

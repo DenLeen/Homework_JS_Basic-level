@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>TASK1</title>
+</head>
+<body>
+<script>
+    var log = prompt("Enter login","");
+    var pass;
+    if (log == "Админ") {
+        pass = prompt("Enter password", "");
+        if (pass == "Чёрный Властелин") {
+            alert("Добро пожаловать!");
+        }
+        else if (pass == null) {
+            alert("Вход отменен");
+        }
+        else  {
+            alert("Пароль неверен");
+        }
+    }
+    else if (log == null) {
+        alert("Вход отменен");
+    }
+    else {
+        alert( "Я вас не знаю");
+    }
+    </script>
+</body>
+</html>
