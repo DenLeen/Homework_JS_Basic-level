@@ -1,3 +1,3 @@
-# Homework_JS_Basic-level
+#JS basic level
 
 Javascript lessons project.
