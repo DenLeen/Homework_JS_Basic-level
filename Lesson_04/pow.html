@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Lesson_04</title>
+</head>
+<body>
+<script>
+    var x=+prompt('Введите число X для возведение его в степерь N', 1);
+    var n=+prompt ('Введите значение N, целое число', 1);
+    if (n <=  0) { alert ('Вы ввели некорректное значение');
+        n=+prompt ('Введите значение N, целое число', 1);
+    }
+    function pow(x,n) {
+        var value=x;
+        for (var i=1; i < n; i++){
+            value *= x;
+        }
+        return value;
+    }
+    alert (pow(x,n));
+</script>
+
+</body>
+</html>
