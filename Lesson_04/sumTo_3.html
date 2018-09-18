@@ -8,19 +8,15 @@
 <script>
     var n= +prompt('Введите целое число N', '');
     function sumTo(n) {
-    //     var value=1;
-    //     for  (var i = 0; i <= n; i++) {}
-    //     return value;
-    // }
-    //     if ( n != 1) {
-    //         return value = n + sumTo(n-1);
-    //     }
-    //     else {
-    //         return n;
-    //     }
-    // }
-    // alert (sumTo(n));
-
+        var sum = 1;   // сумма арифметической прогрессии
+        var d = 1 ;  // шаг арифметической прогрессии
+        var a = 1 ;  // первый элемент прогрессии
+            for  (var i = 1; i <= n; i++) {
+                sum = (2 * a + (n -1) * d) * n / 2
+            }
+            return sum;
+    }
+    alert (sumTo(n));
 </script>
 
 </body>
