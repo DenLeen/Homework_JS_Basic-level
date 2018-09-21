@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anagram</title>
+</head>
+<body>
+<script>
+    function anagram(str) {
+        var strFirst, strSecond;
+        if (strFirst.length != strSecond.length) {
+            return false;
+        }
+        var l = strFirst.length - 1;
+        for (var i = 0; i <= l; i++) {
+            strFirst = +strFirst[i];
+            if (strSecond.indexOf(strFirst[i]) != -1) {
+                alert('Анаграмма')
+            }
+        }
+        alert('Не анаграмма');
+    }
+</script>
+</body>
+</html>

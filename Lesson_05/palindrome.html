@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>palindrome</title>
+</head>
+<body>
+<script>
+    function palindrom(str) {
+        var l = str.length;
+        var j = (l - 1) / 2;
+        for (var i = 0; i <= j; i++) {
+            if (str[i] != str[j - i]) {
+                alert('Данное слово не является палиндромом');
+            }
+        }
+        alert('Данное слово является палиндромом');
+    }
+</script>
+</body>
+</html>
