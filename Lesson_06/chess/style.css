@@ -6,6 +6,9 @@ th,td {
     padding: 10px;
     margin: 0;
 }
-.dark {
+.black {
     background: black;
+}
+.white {
+    background: white;
 }
